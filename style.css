@@ -37,9 +37,30 @@ background-size:1770px 900px;
 }
 
 
+.schedule-monday:nth-child(2n):hover{
+    color: aqua;
+} 
 
 
-
-div:nth-child(5n){
-    color: aquamarine;
+.schedule-tuesday:nth-child(2n):hover{
+    color: gold;
 }
+
+
+.schedule-wednesday:nth-child(2n):hover{
+    color: aqua;
+}
+
+
+.schedule-thursday:nth-child(2n):hover {
+    color: antiquewhite;
+}
+
+
+.schedule-friday:nth-child(2n):hover{
+    color: var(--gold);
+}
+
+
+
+
