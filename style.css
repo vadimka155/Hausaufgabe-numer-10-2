@@ -1,0 +1,45 @@
+:root {
+--blau:  rgb(0, 0, 255) ;
+--gold: rgb(255, 217, 0); 
+
+
+}
+body{
+background-image: url(https://fs03.vseosvita.ua/0301dtc4-6f66-1376x768.jpg);
+
+background-size:1770px 900px;
+}
+
+
+
+.monday:hover,:focus {
+    color: var(--blau);
+}
+
+
+.tuesday:hover,:focus{
+    color: var(--gold);
+}
+
+
+.wednesday:hover,:focus{
+    color: grey;
+}
+
+
+.thursday:hover,:focus{
+    color: aqua;
+}
+
+
+.friday:hover,:focus{
+    color: var(--gold);
+}
+
+
+
+
+
+div:nth-child(5n){
+    color: aquamarine;
+}
